@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<algo>
+    <version>2023081700</version>
+    <device id = "0">
+        <panel id = "0" name="tp/22111/FW_S3910_BOE_HBP.img">
+            <modules id="AlgoParam" enable="true" hint="">
+                <param name="posPeakThd" type="u32" hint="">
+                    <value>180</value>
+                    <range>0,300</range>
+                </param>
+
+                <param name="fpSpotCenterX" type="u32" hint="">
+                    <value>11520</value>
+                    <range>0,20000</range>
+                </param>
+
+                <param name="fpSpotCenterY" type="u32" hint="">
+                    <value>37600</value>
+                    <range>0,50000</range>
+                </param>
+
+                <param name="fpSpotRxStart" type="u32" hint="">
+                    <value>28</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotRxEnd" type="u32" hint="">
+                    <value>31</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotTxStart" type="u32" hint="">
+                    <value>7</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotTxEnd" type="u32" hint="">
+                    <value>10</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="rxNumUse" type="u32" hint="">
+                    <value>38</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="txNumUse" type="u32" hint="">
+                    <value>17</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="maxMappingX" type="u32" hint="">
+                    <value>23040</value>
+                    <range>0,30000</range>
+                </param>
+
+                <param name="maxMappingY" type="u32" hint="">
+                    <value>50688</value>
+                    <range>0,60000</range>
+                </param>
+
+                <param name="rowGain" type="u32" hint="">
+                    <value>256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256</value>
+                    <range>0,1000</range>
+                </param>
+
+                <param name="colGain" type="u32" hint="">
+                    <value>256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256</value>
+                    <range>0,1000</range>
+                </param>
+
+            </modules>
+
+            <modules id="FeatureEn" enable="true" hint="">
+                <param name="WATER_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="ANTI_MISTOUCH_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="FP_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="HARD_PRESSURE_ENABLE" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="NOISE_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="TEMPERATURE_PROC_EN" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="GAME_TOUCH_OPT_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="ROW_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="COL_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="PIXEL_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="NOTCH_GAIN_EN" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+            </modules>
+
+        </panel>
+
+
+        <panel id = "1" name="tp/22111/FW_S3910_TIANMA_HBP.img">
+            <modules id="AlgoParam" enable="true" hint="">
+                <param name="posPeakThd" type="u32" hint="">
+                    <value>180</value>
+                    <range>0,300</range>
+                </param>
+
+                <param name="fpSpotCenterX" type="u32" hint="">
+                    <value>11520</value>
+                    <range>0,20000</range>
+                </param>
+
+                <param name="fpSpotCenterY" type="u32" hint="">
+                    <value>37600</value>
+                    <range>0,50000</range>
+                </param>
+
+                <param name="fpSpotRxStart" type="u32" hint="">
+                    <value>28</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotRxEnd" type="u32" hint="">
+                    <value>31</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotTxStart" type="u32" hint="">
+                    <value>7</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="fpSpotTxEnd" type="u32" hint="">
+                    <value>10</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="rxNumUse" type="u32" hint="">
+                    <value>40</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="txNumUse" type="u32" hint="">
+                    <value>18</value>
+                    <range>0,50</range>
+                </param>
+
+                <param name="maxMappingX" type="u32" hint="">
+                    <value>23040</value>
+                    <range>0,30000</range>
+                </param>
+
+                <param name="maxMappingY" type="u32" hint="">
+                    <value>50688</value>
+                    <range>0,60000</range>
+                </param>
+
+                <param name="rowGain" type="u32" hint="">
+                    <value>256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256</value>
+                    <range>0,1000</range>
+                </param>
+
+                <param name="colGain" type="u32" hint="">
+                    <value>256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256</value>
+                    <range>0,1000</range>
+                </param>
+
+            </modules>
+
+            <modules id="FeatureEn" enable="true" hint="">
+                <param name="WATER_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="ANTI_MISTOUCH_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="FP_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="HARD_PRESSURE_ENABLE" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="NOISE_ENABLE" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="TEMPERATURE_PROC_EN" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="GAME_TOUCH_OPT_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="ROW_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="COL_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="PIXEL_GAIN_EN" type="u32" hint="">
+                    <value>0</value>
+                    <range>0,1</range>
+                </param>
+
+                <param name="NOTCH_GAIN_EN" type="u32" hint="">
+                    <value>1</value>
+                    <range>0,1</range>
+                </param>
+            </modules>
+
+        </panel>
+
+    </device>
+</algo>

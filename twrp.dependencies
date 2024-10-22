@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "MisterZtr",
+    "repository": "recovery_device_realme_sm86xx-common",
+    "target_path": "device/realme/sm86xx-common",
+    "branch": "android-12.1"
+  }
+]

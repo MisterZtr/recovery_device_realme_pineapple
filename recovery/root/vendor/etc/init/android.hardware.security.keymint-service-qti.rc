@@ -1,7 +1,8 @@
-on init
-    start vendor.keymint-qti
-
+# Started from prepdecrypt.sh, which first points the version properties at the
+# installed system. The HAL reads them in its constructor and hands them to the
+# TA, so starting it any earlier binds the TA to recovery's own values.
 service vendor.keymint-qti /vendor/bin/hw/android.hardware.security.keymint-service-qti
+    disabled
     class early_hal
     user root
     group root drmrpc

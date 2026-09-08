@@ -1,6 +1,5 @@
-# Started once qseecomd has registered its listeners; this HAL calls
-# QSEECom_start_app. se_omapi proxies to it, and the Thales weaver and StrongBox
-# transports reach the eSE that way.
+# QSEECom_start_app. se_omapi proxies to it, and that is how the weaver
+# transport reaches the eSE.
 service vendor.secure_element /vendor/bin/hw/android.hardware.secure_element-service.qti
     disabled
     class hal

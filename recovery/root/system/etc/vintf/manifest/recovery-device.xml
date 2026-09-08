@@ -45,10 +45,6 @@
         <fqname>IWeaver/default</fqname>
     </hal>
     <hal format="aidl">
-        <name>android.se.omapi</name>
-        <fqname>ISecureElementService/default</fqname>
-    </hal>
-    <hal format="aidl">
         <name>vendor.oplus.hardware.keymint</name>
         <version>1</version>
         <fqname>IKeymintExt/strongbox</fqname>

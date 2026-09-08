@@ -26,7 +26,6 @@
 
 # Persistent Firmware & Properties
 /firmware       vfat    /dev/block/by-name/modem                  flags=slotselect;display="Firmware";mounttodecrypt;fsflags="ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337,context=u:object_r:firmware_file:s0"
-/persist        ext4    /dev/block/by-name/persist                flags=display="persist";
 /persist_image  emmc    /dev/block/by-name/persist                flags=display="persist";backup;flashimg
 
 # Modem partitions

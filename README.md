@@ -17,17 +17,22 @@ Devices, that can run and will run this recovery without any sudden and unforsee
 
 Works:
 
-- [X] ADB
-- [X] Display
-- [X] Fasbootd
-- [X] Flashing
-- [X] Sideload
-- [X] USB OTG
-- [X] Touch
-- [X] Flashlight
-- [X] Vibrator/Haptic
-- [X] OTA/Payload
-- [X] User data decryption
+- ADB
+- Display
+- Fasbootd
+- Flashing
+- Sideload
+- USB OTG
+- Touch
+- Flashlight
+- Vibrator/Haptic
+- OTA/Payload
+- User data decryption
+
+Issues:
+
+- Installing OTA updates for Android 17 and above is not supported: the outdated recovery base cannot properly merge snapshots during an update
+- OTA updates will not work if you flashed via the standard full mode in Fastboot Firmware Flasher, as using that mode breaks partition groups inside the super partition itself. However, the tool also includes a built-in Super flasher that does not break super, which avoids this issue
 
 # Building
 

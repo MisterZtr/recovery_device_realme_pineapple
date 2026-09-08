@@ -1,0 +1,61 @@
+<!-- AIDL HALs exposed by services included in the recovery ramdisk. -->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>android.hardware.boot</name>
+        <fqname>IBootControl/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.gatekeeper</name>
+        <fqname>IGatekeeper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.health</name>
+        <version>3</version>
+        <fqname>IHealth/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <fqname>ISecureElement/eSE1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.security.keymint</name>
+        <version>3</version>
+        <fqname>IKeyMintDevice/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.security.keymint</name>
+        <version>3</version>
+        <fqname>IRemotelyProvisionedComponent/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.security.secureclock</name>
+        <fqname>ISecureClock/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.security.sharedsecret</name>
+        <fqname>ISharedSecret/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <fqname>IVibrator/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.weaver</name>
+        <version>2</version>
+        <fqname>IWeaver/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.se.omapi</name>
+        <fqname>ISecureElementService/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.keymint</name>
+        <version>1</version>
+        <fqname>IKeymintExt/strongbox</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.weaver</name>
+        <version>1</version>
+        <fqname>IWeaverExt/default</fqname>
+    </hal>
+</manifest>

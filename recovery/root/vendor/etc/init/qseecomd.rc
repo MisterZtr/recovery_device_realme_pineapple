@@ -1,7 +1,6 @@
-on init
-    start vendor.qseecomd
-
+# Started from init.recovery.qcom.rc once by-name links exist.
 service vendor.qseecomd /vendor/bin/qseecomd
+    disabled
     socket notify-topology stream 660 system drmrpc
     class core
     user root

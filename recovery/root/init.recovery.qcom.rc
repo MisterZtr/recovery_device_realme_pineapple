@@ -41,6 +41,9 @@ on fs
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion
     chown system system /dev/ion
+    # qseecomd's SSD listener opens /dev/block/bootdevice/by-name/ssd
+    wait /dev/block/bootdevice/by-name/ssd 10
+    start vendor.qseecomd
     mkdir /mnt/vendor 0775 shell system
     mkdir /mnt/vendor/persist 0775 shell system
     chown system system /mnt/vendor/persist
